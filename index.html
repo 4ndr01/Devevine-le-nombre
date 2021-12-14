@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Integration virgin template</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="sass/styles.css" />
+
+</head>
+
+<body class="body">
+    <div class="title">
+        <h1 class="devine">Devinez le chiffre</h1>
+    </div>
+    <div class="columns2">
+        <div class="columns1">
+            <input name="input" id="in">
+    
+            <button class="button is-sucess is-outlined"onclick="check()">Valider</button>
+        </div>
+
+    
+            
+        <div class="columns">
+           
+            <input name="min"value="1">valeur minimal>
+ 
+        </div>
+        <div class="columns">
+            <input name="max"value="10">valeur maximal>
+            <button class="buttonmax button is-success is-outlined"onclick="setting()">Valider</button>
+        
+        </div>
+
+        <div class="columns">
+            <input name="essai">Tentatives>
+        </div> 
+
+        <div class="columns">
+            <p class="has-text-success" id="ph"></p>
+            <p class="has-text-danger" id="ch"></p>
+
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
+
+
